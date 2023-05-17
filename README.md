@@ -3,6 +3,7 @@
 </p>
 В рамках проекта ведётся разработка модуля геометрического препроцессинга дискретных моделей (поверхностная сетка тел) для дальнейшего использования в задачах CFD.
 
+
 <p align="center">
    <img src="https://img.shields.io/badge/python-3.10.11-blue" alt="Python Version">
    <img src="https://img.shields.io/badge/pycork-0.1.3-green" alt="Pycork Version">
