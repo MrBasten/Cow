@@ -31,7 +31,7 @@ ML-специалист
 ## Инструкция
 1. Сначала зайти в main.py
 2. Изменить путь до 3D-объекта в переменной Path
-3. 
+3. Запустить алгоритм командой "python3 main.py"
 
 ## Методика для всех задач
 https://docs.google.com/document/d/16WCKjFBEvD0ldx8GWUP8CPEYmYI3PghEB95lV9HCEqM/edit?usp=sharing
