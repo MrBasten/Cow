@@ -20,7 +20,7 @@
 3. Разработка нейросети для раската аэродинамики
 
 ## Команда "Cow"
-![Cow](https://github.com/MrBasten/Cow/tree/main/image/Cow.jpg)
+![Cow]([https://github.com/MrBasten/Cow/tree/main/image/Cow.jpg]
 Team Lead [**Фридман В.Д.**] 
 
 Tech Lead [**Стенин К.А.**]
