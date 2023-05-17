@@ -33,5 +33,5 @@ ML-специалист
 2. Изменить путь до 3D-объекта в переменной Path
 3. Запустить алгоритм командой "python3 main.py"
 
-## Методика для всех задач
+## Методика для всех 3-x задач
 https://docs.google.com/document/d/16WCKjFBEvD0ldx8GWUP8CPEYmYI3PghEB95lV9HCEqM/edit?usp=sharing
