@@ -1,5 +1,5 @@
 import trimesh
-import pycork
+#import pycork
 import numpy as np
 import os
 from pathlib import Path
@@ -71,7 +71,7 @@ def manifold(Path):
 
 def smoothing(Path):
     for filename in os.scandir(Path):
-        if filename.is_file() and 'manifold_' in file:
+        if filename.is_file() and 'manifold_' in filename:
             mesh = trimesh.load(filename)
             for i in range(10):
                 trimesh.smoothing.filter_humphrey(mesh)
@@ -80,7 +80,7 @@ def smoothing(Path):
 def pyacvd_process(Path):
     for filename in os.scandir(Path):
         a = 0
-        if filename.is_file() and 'smooth' in file:
+        if filename.is_file() and 'smooth' in filename:
             cow = pyvista.PolyData()
             clus = pyacvd.Clustering(cow)
             clus.subdivide(3)
@@ -92,7 +92,7 @@ def pyacvd_process(Path):
 def assembling(Path):
     final_object = trimesh.scene.scene.Scene()
     for filename in os.scandir(Path):
-        if filename.is_file() and 'out_file' in file:
+        if filename.is_file() and 'out_file' in filename:
             final_object.add_geometry('{}\\{}'.format(Path, filename))
     yourList = obj.geometry.items()
     vertice_list = [mesh.vertices for _, mesh in yourList]
